@@ -1,0 +1,360 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --main: #FFFFFF;
+    --navigation: #ECE2E2;
+    --bg: #D9D9D9;
+}
+
+body {
+    background: linear-gradient(129.86deg, #21E8C4 -20.42%, #179B93 -3.13%, #267B87 24.22%, #0F474F 72.75%);
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    padding-top: 38.5px;
+}
+
+.logo-wrap {
+    width: 152px;
+    padding: 0;
+    margin-right: 212px;
+    margin-left: 109px;
+}
+
+.logo-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: var(--main);
+    margin-right: 10px;
+}
+
+.navigation {
+    font-style: normal;
+    width: 405px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 128%;
+    letter-spacing: 0.015em;
+    text-transform: capitalize;
+}
+
+.nav-link {
+    color: var(--navigation);
+}
+
+.navbar-nav>li>a {
+    padding: 0 !important;
+}
+
+.navbar-nav>.nav-item.active>a {
+    padding-bottom: 5px !important;
+}
+
+.nav-item {
+    margin-right: 23px;
+}
+
+.nav-item:last-child {
+    /* margin-right: 0; */
+    margin-right: 47px;
+}
+
+.nav-item.active::after {
+    content: " ";
+    border-top: 1px solid rgba(250, 255, 35, 0.99);
+    padding-left: 31px;
+}
+
+.bi-search::before {
+    top: 6px;
+    left: 8px;
+    position: absolute;
+}
+
+.input-group-text {
+    background-color: transparent;
+    border-right: none;
+}
+
+.form-group {
+    margin: 5px 0;
+}
+
+.form-input-search {
+    width: 128px;
+    height: 27px;
+    margin-right: 23px;
+    padding: 7px 48px 6px 35px;
+    border-radius: 23px;
+    background-color: var(--bg);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 128%;
+
+    letter-spacing: 0.115em;
+    text-transform: capitalize;
+}
+
+.form-input-search::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 128%;
+
+    letter-spacing: 0.115em;
+    text-transform: capitalize;
+
+    color: rgba(0, 0, 0, 0.93);
+
+}
+
+.form-control-feedback {
+    left: 0;
+    color: #267B87;
+}
+
+.buy-btn {
+    color: var(--main);
+    font-size: 20px;
+    padding-top: 0;
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64.1083px;
+    line-height: 129%;
+    letter-spacing: 0.015em;
+    color: var(--main);
+}
+
+.main {
+    margin-top: 54px;
+    padding-left: 104px;
+}
+
+.main-text {
+    margin-top: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 128%;
+
+    letter-spacing: 0.015em;
+    text-transform: capitalize;
+    color: var(--main);
+}
+
+.main-label {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 129%;
+
+    letter-spacing: 0.015em;
+
+    color: #185955;
+}
+
+.text-wrap {
+    padding: 9px 113px 35px 34px;
+    background: var(--bg);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 71px;
+}
+
+.img-wrap {
+    padding-top: 80px;
+    height: 300px;
+    margin-left: 20px;
+    /* overflow: hidden; */
+    overflow-y: clip;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.1767) 0%, rgba(0, 0, 0, 0.0057) 100%);
+}
+
+.main-shoe-img {
+    position: relative;
+    /* top: -343px;
+    left: -45px; */
+
+    top: -245px;
+    left: 60px;
+    transform: rotate(-15deg);
+    /* background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.1767) 0%, rgba(0, 0, 0, 0.0057) 100%); */
+}
+
+
+.bye-btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 129%;
+    padding: 14px 22px;
+    margin-top: 62px;
+    letter-spacing: 0.015em;
+    border: none;
+    color: rgba(250, 255, 35, 0.99);
+    background: linear-gradient(106.81deg, #179B93 43.2%, rgba(217, 217, 217, 0.71) 61.6%);
+    border-radius: 38px;
+
+    margin-left: -20px;
+}
+
+.models {
+    padding-bottom: 32px;
+}
+
+.models-list {
+    list-style: none;
+    margin-top: -35px;
+    /* padding-right: 189px; */
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.model {
+    width: fit-content;
+    margin-right: 16px;
+}
+
+.model:last-child {
+    margin-right: 0;
+}
+
+.model-img-wrap.active {
+    width: 178px;
+    height: 151px;
+    background: #FAFF23;
+}
+
+.model-img-wrap.active>.model-img {
+    top: 10px;
+    left: -33px;
+}
+
+.model-img-wrap {
+    width: fit-content;
+    height: 129px;
+    background: linear-gradient(180deg, rgba(250, 255, 35, 0.99) -4.65%, rgba(250, 255, 35, 0) 100%);
+    border-radius: 28px;
+}
+
+.model-img {
+    position: relative;
+    top: -33px;
+}
+
+.model-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 128%;
+    letter-spacing: 0.115em;
+    text-transform: capitalize;
+    color: var(--main);
+    margin-top: 14px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.model-text.second {
+    margin-top: 16px;
+}
+
+.model-text.third {
+    margin-top: 7px;
+    font-size: 14px;
+    text-shadow: 0px 1px 7px #000000;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .logo-wrap {
+        margin-right: 100px;
+        margin-left: 109px;
+    }
+
+
+    .models-list {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .logo-wrap {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .img-wrap {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+
+    .main-shoe-img {
+        top: -245px;
+        left: -25px;
+    }
+
+
+    .navbar-nav {
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+
+    .main-shoe-img {
+        width: 250px;
+        top: -140px;
+        left: 150px;
+    }
+
+    .main {
+        padding-left: 20px;
+    }
+
+    .model {
+        display: grid;
+        width: 100%;
+    }
+
+    .bye-btn {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+
+    .main-shoe-img {
+        left: 80px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+
+    .main-shoe-img {
+        left: 30px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .main-shoe-img {
+        display: none;
+    }
+
+}
