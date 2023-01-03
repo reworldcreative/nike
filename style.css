@@ -214,7 +214,7 @@ body {
     list-style: none;
     margin-top: -35px;
     /* padding-right: 189px; */
-    margin-left: 20px;
+    margin-left: 230px;
     margin-bottom: 0;
 }
 
@@ -300,6 +300,12 @@ body {
 
 }
 
+@media screen and (max-width: 800px) {
+    .form-input-search {
+        margin-right: 5px;
+    }
+}
+
 @media screen and (max-width: 770px) {
 
     .main-shoe-img {
@@ -311,6 +317,11 @@ body {
     .navbar-nav {
         margin: 20px 0px;
     }
+
+    .models-list {
+        margin-left: 40%;
+    }
+
 }
 
 @media screen and (max-width: 710px) {
@@ -355,6 +366,18 @@ body {
 
     .main-shoe-img {
         display: none;
+    }
+
+    .models-list {
+        margin-left: 0;
+    }
+
+    .model-img-wrap.active {
+        width: 151px;
+    }
+
+    .model-img-wrap.active>.model-img {
+        left: -48px;
     }
 
 }
